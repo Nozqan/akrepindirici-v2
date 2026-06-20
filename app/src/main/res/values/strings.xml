@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Akrep İndirici</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Anasayfa</string>
+    <string name="nav_tiktok">TikTok</string>
+    <string name="nav_instagram">Instagram</string>
+    <string name="nav_settings">Ayarlar</string>
+
+    <!-- Home -->
+    <string name="home_title">TİT 🦂</string>
+    <string name="home_subtitle">Ücretsiz ve reklamsız video indirme</string>
+    <string name="home_import_hint">Cihazınızdan bir video seçin</string>
+    <string name="home_import_button">Video İçe Aktar</string>
+    <string name="home_empty_history">Henüz işlenen video yok</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="settings_founder_label">KURUCU</string>
+    <string name="settings_founder_name">Nebi Özkan</string>
+    <string name="settings_mission_label">UYGULAMA AMACI</string>
+    <string name="settings_mission_text">Ücretsiz ve reklamsız video download.</string>
+    <string name="settings_security_section">GÜVENLİK VE ERİŞİM</string>
+    <string name="settings_biometric_lock">Parmak İzi Kilidi</string>
+    <string name="settings_biometric_lock_desc">Uygulamayı ve indirilen videoları parmak iziyle koru</string>
+    <string name="settings_personalization_section">KİŞİSELLEŞTİRME</string>
+    <string name="settings_themes_label">Temalar</string>
+    <string name="settings_version">Sürüm %1$s · © %2$d Nebi Özkan</string>
+
+    <!-- Theme names -->
+    <string name="theme_black_pearl">Siyah İnci</string>
+    <string name="theme_midnight_blue">Gece Mavisi</string>
+    <string name="theme_emerald">Zümrüt</string>
+    <string name="theme_ruby">Yakut</string>
+    <string name="theme_special">Nebi Özkan Özel</string>
+
+    <!-- Biometric -->
+    <string name="biometric_prompt_title">Kimliğinizi doğrulayın</string>
+    <string name="biometric_prompt_subtitle">Akrep İndirici\'ye erişmek için parmak izinizi kullanın</string>
+    <string name="biometric_prompt_negative">Vazgeç</string>
+    <string name="biometric_unavailable">Bu cihazda biyometrik doğrulama kullanılamıyor</string>
+    <string name="biometric_retry">Tekrar Dene</string>
+
+    <!-- Generic -->
+    <string name="action_cancel">İptal</string>
+    <string name="action_confirm">Onayla</string>
+    <string name="action_delete">Sil</string>
+</resources>
