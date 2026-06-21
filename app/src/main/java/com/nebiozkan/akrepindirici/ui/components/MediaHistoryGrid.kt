@@ -1,5 +1,6 @@
 package com.nebiozkan.akrepindirici.ui.components
 
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -58,6 +59,7 @@ fun MediaHistoryGrid(
     }
 }
 
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
 private fun MediaGridCell(
     item: MediaItem,
