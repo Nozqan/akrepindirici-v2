@@ -1,3 +1,4 @@
+
 package com.nebiozkan.akrepindirici.di
 
 import android.content.Context
@@ -19,7 +20,7 @@ object AppModule {
     @Singleton
     fun provideDatabase(@ApplicationContext context: Context): AppDatabase =
         Room.databaseBuilder(context, AppDatabase::class.java, AppDatabase.DATABASE_NAME)
-            .fallbackToDestructiveMigration(dropAllTables = true)
+            .fallbackToDestructiveMigration()
             .build()
 
     @Provides
