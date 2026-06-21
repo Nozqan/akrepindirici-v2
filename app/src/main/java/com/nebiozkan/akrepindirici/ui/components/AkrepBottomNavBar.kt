@@ -26,11 +26,12 @@ import com.nebiozkan.akrepindirici.ui.theme.LocalAppColors
 
 @Composable
 fun AkrepBottomNavBar(
-    currentRoute: String,
+    currentRoute: String?,
     onNavigate: (Destination) -> Unit,
     modifier: Modifier = Modifier
 ) {
     val colors = LocalAppColors.current
+    val items: List<Destination> = Destination.bottomNavItems
 
     Row(
         modifier = modifier
@@ -39,7 +40,7 @@ fun AkrepBottomNavBar(
             .padding(vertical = 10.dp),
         horizontalArrangement = Arrangement.SpaceEvenly
     ) {
-        Destination.bottomNavItems.forEach { destination ->
+        for (destination in items) {
             val selected = destination.route == currentRoute
             val interactionSource = remember { MutableInteractionSource() }
             Column(
