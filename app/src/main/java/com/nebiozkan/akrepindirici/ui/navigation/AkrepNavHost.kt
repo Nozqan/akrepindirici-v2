@@ -22,7 +22,7 @@ fun AkrepNavHost(
     navController: NavHostController = rememberNavController()
 ) {
     val backStackEntry by navController.currentBackStackEntryAsState()
-    val currentRoute = backStackEntry?.destination?.route ?: Destination.Home.route
+    val currentRoute: String? = backStackEntry?.destination?.route
 
     Scaffold(
         bottomBar = {
